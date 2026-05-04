@@ -21,9 +21,21 @@
     <ClCompile Include="VectorUInt.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BankMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixUInt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BankMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="VectorUInt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixUInt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

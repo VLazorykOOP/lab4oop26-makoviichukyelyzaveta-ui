@@ -127,10 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BankMap.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MatrixUInt.cpp" />
     <ClCompile Include="VectorUInt.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BankMap.h" />
+    <ClInclude Include="MatrixUInt.h" />
     <ClInclude Include="VectorUInt.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

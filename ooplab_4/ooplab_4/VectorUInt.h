@@ -9,7 +9,7 @@ private:
     int size;
     mutable int codeError;
 
-    static int objectCount; // ✅ тільки оголошення, БЕЗ визначення
+    static int objectCount; // тільки оголошення, БЕЗ визначення
 
 public:
     enum ErrorCode {
@@ -72,7 +72,7 @@ public:
     friend VectorUInt operator+(const VectorUInt& a, const VectorUInt& b);
     friend VectorUInt operator-(const VectorUInt& a, const VectorUInt& b);
     friend VectorUInt operator*(const VectorUInt& v, unsigned int x);
-    friend VectorUInt operator*(unsigned int x, const VectorUInt& v); // ✅ симетричне
+    friend VectorUInt operator*(unsigned int x, const VectorUInt& v); //  симетричне
     friend VectorUInt operator/(const VectorUInt& v, unsigned int x);
     friend VectorUInt operator%(const VectorUInt& v, unsigned int x);
 
